@@ -10,6 +10,8 @@ namespace WebApplication1.Data
         {
         }
 
+        // Define DbSet for Users
+
         public DbSet<User> Users { get; set; }  // I will be creating this
     }
 }
